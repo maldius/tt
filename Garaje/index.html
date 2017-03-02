@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MI Garaje</title>
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+        <script type="text/javascript" src="js/jquerymovile/jquery.mobile-1.4.5.min.js"></script>
+        <script type="text/javascript" src="js/Migaraje.js"></script>
+        <script type="text/javascript" src="phonegap.js"></script>
+        <link rel="stylesheet" href="js/jquerymovile/jquery.mobile-1.4.5.min.css">
+        
+    </head>
+<body>
+    <div id="Mipagina" data-role="page">
+        <div id="cabecera" data-role="header">
+            <p>MI Garaje</p>
+        </div>
+        <div id="contenido" data-role="content">
+            <br>
+                <ul data-role="listview">
+                    <li data-role="list-divider">Usted puede:</li>
+                    
+                    <li><a href="#page2">Administrar</a></li>
+                    <li><a href="">Aparcar</a></li>
+                    <li><a href="#listarplazas">Otros</a></li>
+                </ul>
+        </div>
+        <div id="pie" data-role="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="" data-icon="search">Buscar</a></li>
+                    <li><a href="#Mipagina" data-icon="home">Volver</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        <!-- Añadimos la segunda pagina con el data-theme le ponemos un tema tenemos que hacer esto por cada pagina que generemos -->
+        <div id="page2" data-role="dialog" data-theme="b">
+            <div id="pag_dialogo">
+                <input type="text" id="Plantas" placeholder="Plantas">
+                <input type="text" id="Columnas" placeholder="Pasillos">
+                <input type="text" id="Plazas" placeholder="Plazas">
+            </div>
+        
+        <div id="pie1" data-role="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="" data-icon="search">Buscar</a></li>
+                    <li><input type="button" value="Guardar" id="guardar"></li>
+                    <li><a href="#Mipagina" data-icon="home">Volver</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
