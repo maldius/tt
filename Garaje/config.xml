@@ -6,5 +6,8 @@
 <name>Aparcamiento</name>
 <description>Aplicacion con la que me voy a hacer rico </description>
 <author>Razorix</author>
-<preference name="android-targetSdkVersion" value="10" />
+<platform name=”android”>
+<preference name=”android-minSdkVersion” value=”10″ />
+<preference name=”android-targetSdkVersion” value=”12″ />
+</platform>
  </widget>
