@@ -6,5 +6,7 @@
 <name>Aparcamiento</name>
 <description>Aplicacion con la que me voy a hacer rico </description>
 <author>Razorix</author>
-
+<manifest>
+  <uses-sdk android:minSdkVersion="4" />
+</manifest>  
  </widget>
